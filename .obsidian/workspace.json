@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "0503729fb8f38be1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f7770d502536209",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4444b6f1806e365",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dfec4e5178d108c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "8200cb791a471f6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37bc67911ca11db8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d1aa2aba240c0f25",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e34d7a937fd83c63",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.50246810913086
+  },
+  "right": {
+    "id": "83b0e8db2f1ed21c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dded6260a73e703",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be236a1cc21400db",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TF Prep 311/slides_notes/2. Asib sir/1. Amplitude modulation.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1. Amplitude modulation"
+            }
+          },
+          {
+            "id": "19075f815ca35ec8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JS/Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "6de5901ebf52ff38",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "33a591837a620bca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JS/Untitled.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c4444b6f1806e365",
+  "lastOpenFiles": [
+    "03_The_Local_Git_sandbox/tmp_git/file.txt",
+    "03_The_Local_Git_sandbox/tmp_git/line.txt",
+    "03_The_Local_Git_sandbox/tmp_git/hello.txt",
+    "03_The_Local_Git_sandbox/tmp_git",
+    "03_The_Local_Git_sandbox/git_nightmare_sandbox/app.cpp",
+    "03_The_Local_Git_sandbox/git_nightmare_sandbox",
+    "03_The_Local_Git_sandbox/README.md",
+    "03_The_Local_Git_sandbox/readme.md",
+    "03_The_Local_Git_sandbox/Readme.md",
+    "329 (ML)/Transformers (Jay alammar).md",
+    "images/Pasted image 20260524075359.png",
+    "Last run antigravity/Section_B/10_K_Means_Clustering.md",
+    "329 (ML)/Exam Answers/README.md",
+    "330 (ML lab)/Online 4/EM_GMM_DETAILED.md",
+    "329 (ML)/Section B - Exam Prep/09_K_Means.md",
+    "final rev 2.md",
+    "329 TF prep/elin sir/12. EM.pdf",
+    "Last run antigravity/Section_B/09_EM_Algorithm.md",
+    "Last run antigravity/Section_B/08_GMM.md",
+    "Last run antigravity/Section_B/11_PCA.md",
+    "Last run antigravity/Section_B/07_GAN.md",
+    "Last run antigravity/Section_B/06_Decoder_Based_Architectures.md",
+    "Last run antigravity/Section_B/04_Sequence_to_Sequence.md",
+    "Last run antigravity/Section_B/03_GRU.md",
+    "329 (ML)/Embeddings (t1)/Word2vec_Model.md",
+    "Last run antigravity/Section_B/01_RNN.md",
+    "Last run antigravity/Section_B/02_LSTM.md",
+    "Transformers (Jay alammar).md",
+    "final_rev.md",
+    "329 (ML)/Embeddings (t1)/Word2vec_and_RNNs_Notes.md",
+    "329 TF prep/elin sir/1. Embedding.pdf",
+    "329 TF prep/elin sir/2. Word_embeddings.pdf",
+    "329 TF prep/elin sir/17. GNN2.pdf",
+    "329 TF prep/elin sir/15. SSL.pdf",
+    "329 (ML)/RNN/Transformer Encoder - Complete Numeric Guide.md",
+    "Pasted image 20260524075359.png",
+    "printable.md",
+    "images/1779508756.png",
+    "Last run antigravity/Section_A/01_Linear_Regression.md",
+    "images/Pasted image 20260523095957.png",
+    "datacom antigravity/diagrams/niaz_shannon.png",
+    "datacom antigravity/diagrams/niaz_line_codes.png",
+    "datacom antigravity/diagrams/niaz_pcm.png",
+    "datacom antigravity/diagrams/niaz_pwm_ppm.png",
+    "datacom antigravity/diagrams/niaz_sinc_pam.png",
+    "datacom antigravity/diagrams/niaz_sampling.png"
+  ]
+}
