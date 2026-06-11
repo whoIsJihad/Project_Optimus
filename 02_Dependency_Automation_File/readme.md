@@ -12,5 +12,6 @@ Completed
 
 ## How to run
 ```bash
+cd src
 make
 ```

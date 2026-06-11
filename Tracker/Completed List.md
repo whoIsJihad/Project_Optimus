@@ -17,3 +17,8 @@
 
 - **What to build:** A program that opens, reads, and updates a custom text configuration file (`config.txt`) using standard file streams (`std::fstream`).
     
+
+### 6. Circular Byte Buffer
+
+- **What to build:** A fixed-size FIFO (First-In, First-Out) memory buffer array that allows continuous writing and reading without memory shifting.
+    
