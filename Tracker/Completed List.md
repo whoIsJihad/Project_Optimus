@@ -22,3 +22,16 @@
 
 - **What to build:** A fixed-size FIFO (First-In, First-Out) memory buffer array that allows continuous writing and reading without memory shifting.
     
+### 7. Custom Memory Allocator (Arena)
+
+- **What to build:** A memory allocator that pre-allocates a large contiguous block of memory via `malloc` and doles out small chunks when requested, bypassing standard OS overhead.
+    
+
+### 8. Directory Content Lister
+
+- **What to build:** A tool that traverses a given Linux folder path using POSIX directory system calls (`opendir`, `readdir`) and lists files along with their sizes.
+
+### 9. System Signal Interceptor
+
+- **What to build:** A command-line utility that ignores `Ctrl+C` interrupts (SIGINT), logs a custom message to the console instead, and gracefully exits only when receiving SIGTERM.
+    

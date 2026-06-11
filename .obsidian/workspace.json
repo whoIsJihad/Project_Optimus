@@ -11,10 +11,14 @@
             "id": "c4444b6f1806e365",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "09_Signal_Handling/Tutorials/gfg_post.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "gfg_post"
             }
           }
         ]
@@ -167,6 +171,10 @@
   },
   "active": "c4444b6f1806e365",
   "lastOpenFiles": [
+    "09_Signal_Handling/src",
+    "09_Signal_Handling/Tutorials/gemini_notes.md",
+    "09_Signal_Handling/Tutorials/notes.md",
+    "09_Signal_Handling/notes.md",
     "03_The_Local_Git_sandbox/tmp_git/file.txt",
     "03_The_Local_Git_sandbox/tmp_git/line.txt",
     "03_The_Local_Git_sandbox/tmp_git/hello.txt",
@@ -200,12 +208,8 @@
     "329 TF prep/elin sir/1. Embedding.pdf",
     "329 TF prep/elin sir/2. Word_embeddings.pdf",
     "329 TF prep/elin sir/17. GNN2.pdf",
-    "329 TF prep/elin sir/15. SSL.pdf",
-    "329 (ML)/RNN/Transformer Encoder - Complete Numeric Guide.md",
     "Pasted image 20260524075359.png",
-    "printable.md",
     "images/1779508756.png",
-    "Last run antigravity/Section_A/01_Linear_Regression.md",
     "images/Pasted image 20260523095957.png",
     "datacom antigravity/diagrams/niaz_shannon.png",
     "datacom antigravity/diagrams/niaz_line_codes.png",
