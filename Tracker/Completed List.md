@@ -35,3 +35,7 @@
 
 - **What to build:** A command-line utility that ignores `Ctrl+C` interrupts (SIGINT), logs a custom message to the console instead, and gracefully exits only when receiving SIGTERM.
     
+
+### 11. TCP/IP Packet Inspector
+- **What to build:** Write a program that uses `tcpdump` output (or raw packet bytes) to parse and display the structure of a real TCP/IP packet: source/dest IP, port numbers, sequence numbers, flags. Print a formatted breakdown.
+- **Why first:** Understand what's actually flowing over the wire before you write socket code.

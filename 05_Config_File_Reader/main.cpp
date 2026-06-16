@@ -3,6 +3,9 @@
 #include <string>
 #include <vector>
 #include <map>
+
+// this function was written by deepseek R1
+
 std::string trim(const std::string &str)
 {
     const std::string whitespace = " \t\n\r\f\v";

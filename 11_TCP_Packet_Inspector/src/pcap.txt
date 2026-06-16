@@ -1,0 +1,10 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on wlp0s20f3, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+23:45:16.381410 IP jihad-Nitro-AN515-56.36686 > 20.184.175.12.https: Flags [P.], seq 3160260050:3160260163, ack 811714500, win 55, options [nop,nop,TS val 98804866 ecr 992079293], length 113
+23:45:16.381487 IP jihad-Nitro-AN515-56.36686 > 20.184.175.12.https: Flags [P.], seq 113:2950, ack 1, win 55, options [nop,nop,TS val 98804866 ecr 992079293], length 2837
+23:45:16.392938 IP jihad-Nitro-AN515-56.48672 > router.asus.com.domain: 16448+ [1au] PTR? 12.175.184.20.in-addr.arpa. (55)
+23:45:16.395080 IP router.asus.com.domain > jihad-Nitro-AN515-56.48672: 16448 NXDomain 0/1/1 (144)
+23:45:16.395992 IP jihad-Nitro-AN515-56.55916 > router.asus.com.domain: 62334+ [1au] PTR? 241.1.168.192.in-addr.arpa. (55)
+5 packets captured
+8 packets received by filter
+0 packets dropped by kernel
