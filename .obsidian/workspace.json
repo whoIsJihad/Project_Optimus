@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c4444b6f1806e365",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker_Tutorials/Image.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Image"
-            }
-          },
-          {
             "id": "bbf3eff8c744a201",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker_Tutorials/Container.md",
-                "mode": "source",
+                "file": "14_TCP_client/Tutorial/Beej's Guide -IP Addresses, `struct`s, and Data Munging.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Container"
+              "title": "Beej's Guide -IP Addresses, `struct`s, and Data Munging"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.50246810913086
+    "width": 296.50246810913086,
+    "collapsed": true
   },
   "right": {
     "id": "83b0e8db2f1ed21c",
@@ -186,6 +172,12 @@
   },
   "active": "bbf3eff8c744a201",
   "lastOpenFiles": [
+    "14_TCP_client/Tutorial/Beej's Guide - Sockets.md",
+    "14_TCP_client/Tutorial/Beej's Guide -IP Addresses, `struct`s, and Data Munging.md",
+    "14_TCP_client/Tutorial/Medium Post.md",
+    "Claude Guide.md",
+    "14_TCP_client/Tutorial",
+    "14_TCP_client",
     "Docker_Tutorials/Image.md",
     "Docker_Tutorials/Container.md",
     "Docker_Tutorials/Docker_Desktop.md",
@@ -201,7 +193,6 @@
     "03_The_Local_Git_sandbox/tmp_git/hello.txt",
     "03_The_Local_Git_sandbox/tmp_git",
     "03_The_Local_Git_sandbox/git_nightmare_sandbox/app.cpp",
-    "03_The_Local_Git_sandbox/git_nightmare_sandbox",
     "03_The_Local_Git_sandbox/README.md",
     "03_The_Local_Git_sandbox/readme.md",
     "03_The_Local_Git_sandbox/Readme.md",
@@ -212,17 +203,12 @@
     "330 (ML lab)/Online 4/EM_GMM_DETAILED.md",
     "329 (ML)/Section B - Exam Prep/09_K_Means.md",
     "final rev 2.md",
-    "329 TF prep/elin sir/12. EM.pdf",
     "Last run antigravity/Section_B/09_EM_Algorithm.md",
     "Last run antigravity/Section_B/08_GMM.md",
     "Last run antigravity/Section_B/11_PCA.md",
     "Last run antigravity/Section_B/07_GAN.md",
     "Last run antigravity/Section_B/06_Decoder_Based_Architectures.md",
     "Last run antigravity/Section_B/04_Sequence_to_Sequence.md",
-    "Last run antigravity/Section_B/03_GRU.md",
-    "329 (ML)/Embeddings (t1)/Word2vec_Model.md",
-    "Last run antigravity/Section_B/01_RNN.md",
-    "Last run antigravity/Section_B/02_LSTM.md",
     "Pasted image 20260524075359.png",
     "images/1779508756.png",
     "images/Pasted image 20260523095957.png",

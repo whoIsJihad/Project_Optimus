@@ -46,8 +46,7 @@ bool validate_addr(struct addrinfo *addr_, std::string addr)
         return false;
     }
     std::string octet3=addr.substr(second_dot+1,third_dot-second_dot-1);
-// git rm -r --cached directory/
-// git commit -m "Stop tracking directory"
+
     std::string octet4= addr.substr(third_dot+1,colonPosition-third_dot-1);
     std::string port_string=addr.substr(colonPosition+1);
     if( !check_octet(octet1) || !check_octet(octet2) || !check_octet(octet3) || !check_octet(octet4)) return false;
