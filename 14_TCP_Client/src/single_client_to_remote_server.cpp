@@ -37,12 +37,13 @@ int main(int argc, char *argv[])
     //  walk the serverinfo now and connect to the first addr
     for (p = server_info; p != NULL; p = p->ai_next)
     {
+        //creation of the socket
         if ((sock_fd = socket(p->ai_family, p->ai_socktype, p->ai_protocol)) == -1)
         {
             fprintf(stderr, "client :socket");
             continue;
         }
-        // connect
+        // connecting to server
         if (connect(sock_fd, p->ai_addr, p->ai_addrlen) == -1)
         {
             perror("client: connect");
@@ -60,7 +61,9 @@ int main(int argc, char *argv[])
     }
 
     freeaddrinfo(server_info);
-    // send
+
+    // send raw http query to the server 
+
     const char* req = 
     "GET / HTTP/1.1\r\n"
     "Host: www.google.com\r\n"
@@ -76,13 +79,13 @@ int main(int argc, char *argv[])
     {
         size_t sb= send(sock_fd, req+sent_bytes, len-sent_bytes, 0);
         /* code */
-        if(sb==-1) break;
+        
         sent_bytes+=sb;
     }
     
 
 
-    // receive
+    // receive the request
     int off = 0;
     const int SIZE=1024;;
     char buf[SIZE];

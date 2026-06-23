@@ -19,3 +19,10 @@ employes
 
 # Tracker
 see Progress and Plan in Tracker/
+
+## Delete Executables
+Run this command to delete all the executables in the whole directory
+
+``` bash
+find . -maxdepth 1 -type f -executable -delete
+```

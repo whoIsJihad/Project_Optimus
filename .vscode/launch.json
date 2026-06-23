@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Server",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/server", // Make sure this points to your compiled server binary
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "build-server" // Make sure this matches your task label for the server
+        },
+        {
+            "name": "Debug Client",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/client", // Make sure this points to your compiled client binary
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "build-client" // Make sure this matches your task label for the client
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Server & Client Together",
+            "configurations": [
+                "Debug Server",
+                "Debug Client"
+            ]
+        }
+    ]
+}
